@@ -1,11 +1,13 @@
 {% load render_bundle from webpack_loader %}
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <title>Hello React</title>
-    </head>
-    <body>
-        <div id="container"></div>
-        {% render_bundle 'main' %}
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello React</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    {% render_bundle 'main' %}
+  </body>
 </html>
