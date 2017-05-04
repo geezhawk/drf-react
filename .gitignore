@@ -3,3 +3,4 @@ node_modules/
 db.sqlite3
 assets/bundles
 *.save
+webpack-stats.json

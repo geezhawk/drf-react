@@ -16,10 +16,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #third party apps
+    # third party apps
     'rest_framework',
     'webpack_loader',
-    #local apps
+    # local apps
     'api',
 )
 
@@ -55,7 +55,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'drf_react.wsgi.application'
 
 ####
-#DATABASE
+# DATABASE
 ####
 
 DATABASES = {
@@ -66,7 +66,7 @@ DATABASES = {
 }
 
 ####
-#INTERNATIONALIZATION
+# INTERNATIONALIZATION
 ####
 
 LANGUAGE_CODE = 'en-us'
@@ -80,22 +80,22 @@ USE_L10N = True
 USE_TZ = True
 
 ####
-#STATIC FILES
+# STATIC FILES
 ####
 
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-	os.path.join(BASE_DIR, 'assets'),
+    os.path.join(BASE_DIR, 'assets'),
 )
 
 ####
-#WEBPACK
+# WEBPACK
 ####
 
 WEBPACK_LOADER = {
-	'DEFAULT': {
-	'BUNDLE_DIR_NAME': 'bundles/',
-	'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
-	}
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'bundles/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+    }
 }

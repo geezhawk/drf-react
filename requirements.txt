@@ -1,4 +1,8 @@
-Django==1.8.4
-django-webpack-loader==0.2.4
-djangorestframework==3.3.2
-wheel==0.26.0
+appdirs==1.4.3
+Django==1.11
+django-webpack-loader==0.4.1
+djangorestframework==3.6.2
+packaging==16.8
+pyparsing==2.2.0
+pytz==2017.2
+six==1.10.0

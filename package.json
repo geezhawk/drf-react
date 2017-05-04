@@ -4,7 +4,8 @@
   "description": "Django and React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint assets/js",
+    "build": "webpack"
   },
   "keywords": [
     "django",
@@ -14,22 +15,31 @@
   "author": "Jonathan Cox",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.4.5",
-    "babel-loader": "^6.2.1",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "css-loader": "^0.26.1",
-    "file-loader": "^0.9.0",
-    "jquery": "^2.2.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.12.12",
-    "webpack-bundle-tracker": "0.0.93"
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "file-loader": "^0.11.1",
+    "jquery": "^3.2.1",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-bundle-tracker": "0.2.0"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "react-bootstrap": "^0.30.7"
-  }
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4"
+  },
+  "private": true
 }
